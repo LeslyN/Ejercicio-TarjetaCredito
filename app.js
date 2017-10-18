@@ -24,7 +24,7 @@ function isValidCard(numCard){
 
 				//Valida que sea par
 				if(ints[j] % 2 == 0){
-					mult = mult * ints[j];
+					mult = 2 * (ints[j]);
 
 					//valida que la multiplicación sea mayor o igual que 10 para sumar sus dígitos
 					if(mult >= 10){
